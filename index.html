@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="battle.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@700&display=swap" rel="stylesheet">
+    <title>Batalla Naval</title>
+</head>
+
+<body>
+    <h1>Batalla Naval</h1>
+    <h3>Selecciona la posición de tus naves</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="board">
+                </div>
+            </div>
+            <div class="col">
+                <div id="boardAttack">
+                </div>
+            </div>
+        </div>
+        <h4>Tus naves:</h4>
+        <div id="ships" class="row">
+            <div class="col">
+                <div>
+                    <span class="title">Portaviones</span></br>
+                    <span class="size">Tamaño: 5</span>
+                </div>
+                <div class="position"></div>
+            </div>
+            <div class="col">
+                <div>
+                    <span class="title">Acorazado</span></br>
+                    <span class="size">Tamaño: 4</span>
+                </div>
+                <div class="position"></div>
+            </div>
+            <div class="col">
+                <div>
+                    <span class="title">Submarino</span></br>
+                    <span class="size">Tamaño: 3</span>
+                </div>
+                <div class="position"></div>
+            </div>
+            <div class="col">
+                <div>
+                    <span class="title">Destructor</span></br>
+                    <span class="size">Tamaño: 2</span>
+                </div>
+                <div class="position"></div>
+            </div>
+        </div>
+        <div class="row">
+            <button id="button" onclick="startGame()">Empezar juego</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="battle.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

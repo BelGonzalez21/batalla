@@ -1,0 +1,99 @@
+body{
+    
+    background-image:  url("./assets/fondo-batalla-01.jpg");
+    /* background-color:  #1313afaf; */
+    text-align: center;
+    
+}
+h1{
+    font-family: 'Grandstander', cursive;
+    font-weight: bold 700;
+    color: orange;
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+h4{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.title{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.size{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+#board{
+    width: 300px;
+    height: 300px;
+}
+.myRow{
+    width: 300px;
+    height: 30px;
+}
+.grid{
+    width: 30px;
+    height: 30px;
+    border: white 0.8px solid;
+    display: inline-block
+}
+.position{
+    display: inline-block;
+    cursor:grab;
+    margin-top: 1rem;
+}
+.horizontal{
+    width: 35px;
+    height: 15px;
+    border: orange 2px solid;
+}
+.vertical{
+    width: 15px;
+    height: 35px;
+    border: orange 2px solid;
+    margin-top: 5px;
+}
+.selected{
+    background-color: rgb(0, 238, 255);
+}
+.hit{
+    background-color: rgb(2, 2, 2);
+}
+.miss{
+    background-color: gray;
+}
+#button{
+    border-style: none;
+    background-color: rgb(0, 174, 255);
+    height: 2rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
